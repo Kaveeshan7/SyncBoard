@@ -2,61 +2,6 @@
 
 SyncBoard is a dark-themed collaborative task management client built as the static front-end skeleton for Assignment 01. It provides a responsive Kanban workspace with mock data and client-side interactions that demonstrate the planned user experience before back-end integration.
 
-## Assignment
-
-**Assignment 01 - Static Front-End Skeleton**
-
-Repository: [https://github.com/Kaveeshan7/SyncBoard](https://github.com/Kaveeshan7/SyncBoard)
-
-## Team
-
-| Member | GitHub Username | Role |
-| --- | --- | --- |
-| Kaveeshan | [Kaveeshan7](https://github.com/Kaveeshan7) | Full-Stack Developer - application structure, authentication screens, dashboard, and board features |
-| Minaga | [MYethmin](https://github.com/MYethmin) | Full-Stack Developer - UI components, navigation views, testing, and documentation |
-
-Both members should make commits using their own GitHub accounts so their contributions appear in the repository history.
-
-## Features
-
-- Dark, responsive landing page
-- Mock login and registration flows
-- Protected dashboard experience using local browser state
-- Dashboard overview with task and progress summaries
-- Multiple Kanban boards and board switching
-- Custom board creation with configurable columns
-- Task creation, search, details, and deletion
-- Calendar view for task due dates
-- Team member and collaboration view
-- Project analytics and task distribution summaries
-- Notifications with read and unread states
-- Personal and workspace settings
-- User profile modal with assigned-task information
-
-## Pages And Views
-
-- `/` - Landing page
-- `/login` - Sign-in page
-- `/register` - Account registration page
-- `/dashboard` - Authenticated workspace
-- Dashboard
-- Boards
-- Calendar
-- Teams
-- Analytics
-- Notifications
-- Settings
-- Profile
-
-## Technology Stack
-
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS 4
-- React Router
-- Browser localStorage for mock authentication
-
 ## Getting Started
 
 ### Prerequisites
@@ -130,40 +75,3 @@ src/
 |-- index.css         Tailwind import and global styles
 `-- main.tsx          React application entry point
 ```
-
-## Current Scope
-
-This repository contains a static front-end skeleton. Authentication, social sign-in, invitations, real-time synchronization, REST API calls, database persistence, and server-side authorization are represented by UI or local mock behavior and will require back-end integration in later milestones.
-
-## Git Workflow
-
-Create a feature branch before making changes:
-
-```bash
-git checkout -b feature/your-feature-name
-```
-
-Commit and push the changes:
-
-```bash
-git add .
-git commit -m "feat: describe your change"
-git push -u origin feature/your-feature-name
-```
-
-Open a pull request on GitHub and merge it into `main` after review.
-
-## Assignment Tag
-
-After both members' commits are merged into `main`, create and publish the assignment tag:
-
-```bash
-git checkout main
-git pull origin main
-git tag -a assignment-01-static-frontend-skeleton -m "Assignment 01 - Static Front-End Skeleton"
-git push origin assignment-01-static-frontend-skeleton
-```
-
-## License
-
-This project was created for academic coursework.
